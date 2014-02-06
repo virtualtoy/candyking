@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity width="30" height="53">
+	<Graphic>
+		<Stamp source="images/enemy_candy_corn.png" name="body" />
+		<Stamp source="images/enemy_candy_corn_highlight.png" name="highlight" />
+	</Graphic>
+</Entity>

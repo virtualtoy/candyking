@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity width="26" height="26">
+	<Graphic>
+		<Spritemap source="images/enemy_peppermint.png" frameWidth="33" frameHeight="27" x="-7" play="default">
+			<Animation name="default" frames="0,1,2" frameRate="15" loop="true" />
+		</Spritemap>
+	</Graphic>
+</Entity>

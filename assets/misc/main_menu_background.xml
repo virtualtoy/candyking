@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Background>
+	<Backdrop source="images/city_sky.png" y="0" repeatY="false" scrollFactor="0" />
+	<Backdrop source="images/city_skyline_2.png" y="30" repeatY="false" scrollFactor="0.1" />
+	<Backdrop source="images/city_skyline_1.png" y="40" repeatY="false" scrollFactor="0.2" />
+	<Backdrop source="images/city_buildings.png" y="90" repeatY="false" scrollFactor="0.3" />
+	<Backdrop source="images/city_road_tile.png" y="209" repeatY="false" scrollFactor="0.5" />
+</Background>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity width="36" height="32">
+	<Graphic>
+		<Spritemap source="images/enemy_love_candy.png" name="body" frameWidth="36" frameHeight="32" />
+		<Stamp source="images/enemy_love_candy_highlight.png" name="highlight" />
+	</Graphic>
+</Entity>

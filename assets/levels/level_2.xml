@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Level>
+	<Rect x="0" y="0" width="400" height="220" />
+	<Background>
+		<Backdrop source="images/desert_sky.png" y="0" repeatY="false" scrollFactor="0" />
+		<Backdrop source="images/desert_bg_4.png" y="41" repeatY="false" scrollFactor="0.2" />
+		<Backdrop source="images/desert_bg_3.png" y="119" repeatY="false" scrollFactor="0.3" />
+		<Backdrop source="images/desert_bg_2.png" y="136" repeatY="false" scrollFactor="0.4" />
+		<Backdrop source="images/desert_bg_1.png" y="47" repeatY="false" scrollFactor="0.6" />
+		<Backdrop source="images/desert_bg_0.png" y="205" repeatY="false" scrollFactor="0.75" />
+	</Background>
+	<Refs>
+		<EnemyWave id="lollipop_shooting_top">
+			<Enemy type="candyking.game.enemies.Lollipop" shootCooldown="1.5" ammoOffsetY="0" speed="30" wayPoints="400,20;-58,20" />
+		</EnemyWave>
+		<EnemyWave id="lollipop_shooting_bottom">
+			<Enemy type="candyking.game.enemies.Lollipop" shootCooldown="1.5" ammoOffsetY="-4.8" speed="30" wayPoints="400,174;-58,174" />
+		</EnemyWave>
+		<EnemyWave id="chocolate_wall">
+			<Enemy type="candyking.game.enemies.ChocolateWall" />
+		</EnemyWave>
+		<EnemyWave id="bears_five">
+			<Enemy type="candyking.game.enemies.GummyBear" delay="0.0" />
+			<Enemy type="candyking.game.enemies.GummyBear" delay="0.2" />
+			<Enemy type="candyking.game.enemies.GummyBear" delay="0.4" />
+			<Enemy type="candyking.game.enemies.GummyBear" delay="0.6" />
+			<Enemy type="candyking.game.enemies.GummyBear" delay="0.8" />
+		</EnemyWave>
+		<EnemyWave id="marshmallow_seven_shooting">
+			<Enemy type="candyking.game.enemies.Marshmallow" delay="0" shootCooldown="2" />
+			<Enemy type="candyking.game.enemies.Marshmallow" delay="1" shootCooldown="2" />
+			<Enemy type="candyking.game.enemies.Marshmallow" delay="2" shootCooldown="2" />
+			<Enemy type="candyking.game.enemies.Marshmallow" delay="3" shootCooldown="2" />
+			<Enemy type="candyking.game.enemies.Marshmallow" delay="4" shootCooldown="2" />
+			<Enemy type="candyking.game.enemies.Marshmallow" delay="5" shootCooldown="2" />
+			<Enemy type="candyking.game.enemies.Marshmallow" delay="6" shootCooldown="2" />
+		</EnemyWave>
+		<EnemyWave id="marshmallow_three_shooting">
+			<Enemy type="candyking.game.enemies.Marshmallow" delay="0.0" shootCooldown="2" />
+			<Enemy type="candyking.game.enemies.Marshmallow" delay="0.5" shootCooldown="2" />
+			<Enemy type="candyking.game.enemies.Marshmallow" delay="1.0" shootCooldown="2" />
+		</EnemyWave>
+		<EnemyWave id="life_savers_five_down_left">
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.0" speed="150" wayPoints="330,-32;330,173;-33,173" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.4" speed="150" wayPoints="330,-32;330,173;-33,173" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.8" speed="150" wayPoints="330,-32;330,173;-33,173" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="1.2" speed="150" wayPoints="330,-32;330,173;-33,173" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="1.6" speed="150" wayPoints="330,-32;330,173;-33,173" />
+		</EnemyWave>
+		<EnemyWave id="life_savers_five_up_left">
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.0" speed="150" wayPoints="330,225;330,20;-33,20" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.4" speed="150" wayPoints="330,225;330,20;-33,20" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.8" speed="150" wayPoints="330,225;330,20;-33,20" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="1.2" speed="150" wayPoints="330,225;330,20;-33,20" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="1.6" speed="150" wayPoints="330,225;330,20;-33,20" />
+		</EnemyWave>
+		<EnemyWave id="life_savers_five_right_up_left">
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.0" speed="150" wayPoints="-32,173;330,173;330,20;-32,20" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.4" speed="150" wayPoints="-32,173;330,173;330,20;-32,20" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.8" speed="150" wayPoints="-32,173;330,173;330,20;-32,20" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="1.2" speed="150" wayPoints="-32,173;330,173;330,20;-32,20" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="1.6" speed="150" wayPoints="-32,173;330,173;330,20;-32,20" />
+		</EnemyWave>
+		<EnemyWave id="candy_cane_shooting_top">
+			<Enemy type="candyking.game.enemies.CandyCane" shootCooldown="1.5" speed="50" wayPoints="400,20,0,sineOut;50,20,0,sineIn;400,20" />
+		</EnemyWave>
+		<EnemyWave id="candy_cane_shooting_middle">
+			<Enemy type="candyking.game.enemies.CandyCane" shootCooldown="1.5" speed="50" wayPoints="400,97,0,sineOut;50,97,0,sineIn;400,97" />
+		</EnemyWave>
+		<EnemyWave id="candy_cane_shooting_bottom">
+			<Enemy type="candyking.game.enemies.CandyCane" shootCooldown="1.5" speed="50" wayPoints="400,174,0,sineOut;50,174,0,sineIn;400,174" />
+		</EnemyWave>
+		<EnemyWave id="life_savers_five_zigzag">
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.0" speed="150" wayPoints="400,20;285,173;170,20;55,173;-60,20" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.4" speed="150" wayPoints="400,20;285,173;170,20;55,173;-60,20" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.8" speed="150" wayPoints="400,20;285,173;170,20;55,173;-60,20" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="1.2" speed="150" wayPoints="400,20;285,173;170,20;55,173;-60,20" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="1.6" speed="150" wayPoints="400,20;285,173;170,20;55,173;-60,20" />
+		</EnemyWave>
+		<EnemyWave id="love_candies_surround">
+			<Enemy type="candyking.game.enemies.LoveCandy" angle="0" />
+			<Enemy type="candyking.game.enemies.LoveCandy" angle="45" />
+			<Enemy type="candyking.game.enemies.LoveCandy" angle="90" />
+			<Enemy type="candyking.game.enemies.LoveCandy" angle="135" />
+			<Enemy type="candyking.game.enemies.LoveCandy" angle="180" />
+			<Enemy type="candyking.game.enemies.LoveCandy" angle="225" />
+			<Enemy type="candyking.game.enemies.LoveCandy" angle="270" />
+			<Enemy type="candyking.game.enemies.LoveCandy" angle="315" />
+		</EnemyWave>
+		<EnemyWave id="life_savers_five_top_diagonal">
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.0" speed="150" wayPoints="400,30;50,30;200,163;400,163" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.4" speed="150" wayPoints="400,30;50,30;200,163;400,163" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.8" speed="150" wayPoints="400,30;50,30;200,163;400,163" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="1.2" speed="150" wayPoints="400,30;50,30;200,163;400,163" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="1.6" speed="150" wayPoints="400,30;50,30;200,163;400,163" />
+		</EnemyWave>
+		<EnemyWave id="life_savers_five_bottom_diagonal">
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.0" speed="150" wayPoints="400,163;50,163;200,30;400,30" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.4" speed="150" wayPoints="400,163;50,163;200,30;400,30" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="0.8" speed="150" wayPoints="400,163;50,163;200,30;400,30" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="1.2" speed="150" wayPoints="400,163;50,163;200,30;400,30" />
+			<Enemy type="candyking.game.enemies.LifeSaver" delay="1.6" speed="150" wayPoints="400,163;50,163;200,30;400,30" />
+		</EnemyWave>
+	</Refs>
+	<Timeline>
+		<EnemyWave ref="life_savers_five_down_left" waitForCompletion="true" delay="2" />
+		<EnemyWave ref="life_savers_five_up_left" delay="6" />
+		<EnemyWave ref="candy_cane_shooting_top" delay="5" />
+		<EnemyWave ref="candy_cane_shooting_bottom" delay="3" />
+		<EnemyWave ref="chocolate_wall" delay="4" />
+		<EnemyWave ref="love_candies_surround" delay="6" />
+		<EnemyWave ref="life_savers_five_zigzag" delay="6" />
+		<EnemyWave ref="marshmallow_seven_shooting" delay="4" />
+		<EnemyWave ref="life_savers_five_down_left" delay="12" />
+		<EnemyWave ref="life_savers_five_up_left" delay="6" />
+		<EnemyWave ref="lollipop_shooting_top" delay="4" />
+		<EnemyWave ref="marshmallow_three_shooting" delay="1" />
+		<EnemyWave ref="lollipop_shooting_bottom" delay="9" />
+		<EnemyWave ref="bears_five" delay="3" />
+		<EnemyWave ref="bears_five" delay="3" />
+		<EnemyWave ref="life_savers_five_right_up_left" delay="3" />
+		<EnemyWave ref="candy_cane_shooting_top" delay="6" />
+		<EnemyWave ref="candy_cane_shooting_middle" delay="2" />
+		<EnemyWave ref="candy_cane_shooting_bottom" delay="2" />
+		<EnemyWave ref="chocolate_wall" delay="14" />
+		<EnemyWave ref="chocolate_wall" delay="4" />
+		<EnemyWave ref="love_candies_surround" delay="0" />
+		<EnemyWave ref="life_savers_five_top_diagonal" delay="14" />
+		<EnemyWave ref="life_savers_five_bottom_diagonal" delay="4" />
+		<EnemyWave ref="marshmallow_seven_shooting" delay="8" />
+		<EnemyWave ref="candy_cane_shooting_top" delay="6" />
+		<EnemyWave ref="lollipop_shooting_bottom" delay="6" />
+		<EnemyWave ref="life_savers_five_zigzag" delay="3" />
+		
+		<Speech delay="1">
+			<Entry portrait="images/giant_bear_portrait_1.png" text="Gummy destroy... Gummy crush... Gummy smash..." />
+			<Entry portrait="images/player_portrait_2.png" text="Uh-oh! Is this a rabid Gummy Bear?!!" />
+		</Speech>
+		
+		<EnemyWave waitForCompletion="true">
+			<Enemy type="candyking.game.bosses.GiantBear" />
+		</EnemyWave>
+		
+		<Speech delay="1">
+			<Entry portrait="images/giant_bear_portrait_2.png" text="Gummy-mummy... *sniff-sniff*" />
+		</Speech>
+	</Timeline>
+</Level>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity width="8" height="8">
+	<Graphic>
+		<Spritemap source="images/player_grenade.png" frameWidth="8" frameHeight="8" play="default">
+			<Animation name="default" frames="0,1,2,3" frameRate="10" loop="true" />
+		</Spritemap>
+	</Graphic>
+</Entity>

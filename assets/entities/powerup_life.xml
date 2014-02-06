@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity width="21" height="21">
+	<Graphic>
+		<Stamp source="images/power_up_life.png" />
+	</Graphic>
+</Entity>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity width="6" height="6">
+	<Graphic>
+		<Stamp source="images/player_bullet.png" />
+	</Graphic>
+</Entity>

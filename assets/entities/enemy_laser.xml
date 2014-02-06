@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity width="20" height="6">
+	<Graphic>
+		<Spritemap source="images/enemy_laser.png" frameWidth="20" frameHeight="6" play="default">
+			<Animation name="default" frames="0,1" frameRate="15" loop="true" />
+		</Spritemap>
+	</Graphic>
+</Entity>

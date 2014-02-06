@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity width="12" height="12">
+	<Graphic>
+		<Spritemap source="images/enemy_bullet_large.png" frameWidth="12" frameHeight="12" play="default">
+			<Animation name="default" frames="0,1" frameRate="15" loop="true" />
+		</Spritemap>
+	</Graphic>
+</Entity>

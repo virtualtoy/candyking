@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity width="76" height="112">
+	<Graphic>
+		<Stamp source="images/king_body.png" name="body" />
+		<Stamp source="images/king_highlight.png" name="highlight" />
+		<Stamp source="images/king_mouth_1.png" name="mouth_1" x="8" y="56" />
+		<Stamp source="images/king_mouth_2.png" name="mouth_2" x="8" y="56" />
+		<Stamp source="images/king_mouth_3.png" name="mouth_3" x="8" y="56" />
+		<Stamp source="images/king_mustache.png" name="mustache" x="-6" y="48" />
+		<Stamp source="images/king_eyes_1.png" name="eyes_1" x="7" y="34" />
+		<Stamp source="images/king_eyes_2.png" name="eyes_2" x="7" y="22" />
+		<Stamp source="images/king_eyes_3.png" name="eyes_3" x="6" y="29" />
+		<Stamp source="images/king_crown.png" name="crown" x="37" y="-15" />
+	</Graphic>
+</Entity>

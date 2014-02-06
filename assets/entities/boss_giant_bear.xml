@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity width="89" height="123">
+	<Graphic>
+		<Stamp source="images/giant_bear_body.png" name="body" />
+		<Stamp source="images/giant_bear_body_highlight.png" name="highlight" />
+		<Stamp source="images/giant_bear_eyes_1.png" name="eyes_1" x="29" y="22" />
+		<Stamp source="images/giant_bear_eyes_2.png" name="eyes_2" x="29" y="22" />
+		<Stamp source="images/giant_bear_eyes_3.png" name="eyes_3" x="28" y="22" />
+	</Graphic>
+</Entity>
